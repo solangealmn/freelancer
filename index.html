@@ -12,16 +12,17 @@
 </head>
 <body>
   <nav class="menu">
-    <h2 class="menu-title">Start Bootstrap</h2>
+    <h2 class="menu-title"><a href="#topo">Start Bootstrap</a></h2>
     <ul class="menu-list">
-      <li><a href="#">Portfolio</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#Portfolio">Portfolio</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Contact">Contact</a></li>
     </ul>
   </nav>
+  <a name="topo"></a>
   <header class="blue-section">
     <img src="assets/images/profile.png" alt="User profile photo">
-    <h1 class="titles main-title">Start Bootstrap</h1>
+    <h1 class="titles main-title"> Start Bootstrap</h1>
     <div class="shapes">
       <div class="rectangle white"></div>
       <i class="fas fa-star"></i>
@@ -29,6 +30,8 @@
     </div>
     <h2 class="subtitle">Web Developer - Graphic Artist - User Experience Designer</h2>
   </header>
+
+  <a name="Portfolio"></a>
   <section class="clear-section">
     <h2 class="titles title-black">Portfolio</h2>
     <div class="shapes">
@@ -45,28 +48,32 @@
       <img src="assets/images/portfolio/submarine.png" alt="submarine">
     </div>
   </section>
+  
+  <a name="About"></a>
   <section class="blue-section section-down">
     <h2 class="titles white-title">About</h2>
-      <div class="shapes">
-        <div class="rectangle white"></div>
-        <i class="fas fa-star"></i>
-        <div class="rectangle white"></div>
-      </div>
-      <article class="container">
-        <p class="half">Freelancer is a free Bootstrap theme
-          created by Start Bootstrap. The download includes the
-          completed source files including HTML, CSS, and Javascript
-          as well as optional LESS stylesheet for easy costomization.
-        </p>
-        <p class="half">
-          Whether you're a student looking to
-          showcase your work, a professional looking to attracted
-          clients, or a graphic artists looking to share your projetcts,
-           this template is the perfect starting point!
-        </p>
-      </article>
-      <a href="#" class="button" type="button" name="download"><i class="fas fa-download"></i> Download Theme</a>
+    <div class="shapes">
+      <div class="rectangle white"></div>
+      <i class="fas fa-star"></i>
+      <div class="rectangle white"></div>
+    </div>
+    <article class="container">
+      <p class="half">Freelancer is a free Bootstrap theme
+        created by Start Bootstrap. The download includes the
+        completed source files including HTML, CSS, and Javascript
+        as well as optional LESS stylesheet for easy costomization.
+      </p>
+      <p class="half">
+        Whether you're a student looking to
+        showcase your work, a professional looking to attracted
+        clients, or a graphic artists looking to share your projetcts,
+        this template is the perfect starting point!
+      </p>
+    </article>
+    <a href="#" class="button" type="button" name="download"><i class="fas fa-download"></i> Download Theme</a>
   </section>
+
+  <a name="Contact"></a>
   <section class="clear-section">
     <h2 class="titles title-black">Contact Me</h2>
     <div class="shapes">
@@ -83,35 +90,28 @@
       <input type="text" name="" value="">
       <label for="Phone">Message</label>
       <textarea name="Message" rows="8" cols="80"></textarea>
-      <a href="#" class="send" type="submit" name="send"> Send</a>
+      <a href="#" class="send" type="submit" name="send">Send</a>
     </form>
   </section>
+
   <footer>
-    <div class="location">
-      <h2 class="titles footer-title">Location</h2>
-      <p>3481 Melrose Place Bervely Hills, CA 90210</p>
-    </div>
-    <div class="web">
-      <h2 class="titles footer-title">Around the Web</h2>
-      <div class="border-rounded">
-        <i class="fab fa-facebook-f"></i>
+    <div class="container-footer">
+      <div class="location">
+        <h2 class="titles footer-title">Location</h2>
+        <p>3481 Melrose Place Bervely Hills, CA 90210</p>
       </div>
-      <div class="border-rounded">
-        <i class="fab fa-google-plus-g"></i>
+      <div class="web">
+        <h2 class="titles footer-title">Around the Web</h2>
+        <a class="border-rounded"  href="#"><i class="fab fa-facebook-f"></i></a>
+        <a class="border-rounded"  href="#"><i class="fab fa-google-plus-g"></i></a>
+        <a class="border-rounded"  href="#"><i class="fab fa-twitter"></i></a>
+        <a class="border-rounded"  href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a class="border-rounded" href="#"><i class="fab fa-dribbble"></i></a>
       </div>
-      <div class="border-rounded">
-        <i class="fab fa-twitter"></i>
+      <div class="freelancer">
+        <h2 class="titles footer-title">About freelancer</h2>
+        <p>Frelancer is a free to use open source Bootstrap Theme created by <a class="link-text" href="#">Start Bootstrap</a>.</p>
       </div>
-      <div class="border-rounded">
-        <i class="fab fa-linkedin-in"></i>
-      </div>
-      <div class="border-rounded">
-        <i class="fab fa-dribbble"></i>
-      </div>
-    </div>
-    <div class="freelancer">
-      <h2 class="titles footer-title">About freelancer</h2>
-      <p>Frelancer is a free to use open source Bootstrap Theme created by <a class="link-text" href="#">Start Bootstrap</a>.</p>
     </div>
     <p class="copy">Copyright &copy; Your Website 2017</p>
   </footer>
